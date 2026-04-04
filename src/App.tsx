@@ -248,23 +248,17 @@ function AppContent() {
     setStatus('loading');
     
     try {
-      // Simulate network request
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Fallback to mailto
-      const subject = `New Quote Request from ${formData.fullName}`;
-      const body = `
-Name: ${formData.fullName}
-Phone: ${formData.phone}
-Email: ${formData.email}
-City: ${formData.city}
-Service: ${formData.service}
+      const response = await fetch('https://services.leadconnectorhq.com/hooks/o7aUwpKbtkP4AOP0pEjC/webhook-trigger/c66736a7-834c-4043-b1b0-17c60adcb344', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-Details:
-${formData.details}
-      `;
-      
-      window.location.href = `mailto:boyboy5212000@hotmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
       
       setStatus('success');
       setFormData({ fullName: '', phone: '', email: '', city: '', service: '', details: '' });
