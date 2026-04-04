@@ -82,7 +82,7 @@ export default function Home() {
             className="relative rounded-2xl overflow-hidden shadow-2xl"
           >
             <img 
-              src="https://placehold.co/800x600/2D6A4F/FFFFFF?text=Our+Team+At+Work" 
+              src="/media/1.jpeg" 
               alt="Contractor working on a home" 
               className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
             />

@@ -5,9 +5,9 @@ import { Instagram, Play, ChevronLeft, ChevronRight } from 'lucide-react';
 
 
 const BACKGROUND_IMAGES = [
-  "/media/img1.jpeg", "/media/img2.jpeg", "/media/img3.jpeg", "/media/img4.jpeg", "/media/img5.jpeg", "/media/img6.jpeg",
-  "/media/img7.jpeg", "/media/img8.jpeg", "/media/img9.jpeg", "/media/img10.jpeg", "/media/img11.jpeg", "/media/img1.jpeg",
-  "/media/img2.jpeg", "/media/img3.jpeg", "/media/img4.jpeg", "/media/img5.jpeg", "/media/img6.jpeg", "/media/img7.jpeg"
+  "/media/1.jpeg", "/media/2.jpeg", "/media/3.jpeg", "/media/4.jpeg", "/media/5.jpeg", "/media/1.jpeg",
+  "/media/2.jpeg", "/media/3.jpeg", "/media/4.jpeg", "/media/5.jpeg", "/media/1.jpeg", "/media/2.jpeg",
+  "/media/3.jpeg", "/media/4.jpeg", "/media/5.jpeg", "/media/1.jpeg", "/media/2.jpeg", "/media/3.jpeg"
 ];
 
 const VIDEOS = [
@@ -15,28 +15,28 @@ const VIDEOS = [
     id: 1,
     title: "Doing it properly",
     videoUrl: "/media/vid1.mp4",
-    poster: "/media/img1.jpeg",
+    poster: "/media/3.jpeg",
     igLink: "https://www.instagram.com/reel/DViwbMGETk7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 2,
     title: "La peinture",
     videoUrl: "/media/vid2_new.mp4",
-    poster: "/media/img2.jpeg",
+    poster: "/media/4.jpeg",
     igLink: "https://www.instagram.com/reel/DVYn2kAET6p/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 3,
     title: "Fresh start",
     videoUrl: "/media/vid3.mp4",
-    poster: "/media/img3.jpeg",
+    poster: "/media/5.jpeg",
     igLink: "https://www.instagram.com/reel/DVONZCHFBZj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 4,
     title: "Walk-in transformation",
     videoUrl: "/media/vid4.mp4",
-    poster: "/media/img4.jpeg",
+    poster: "/media/3.jpeg",
     igLink: "https://www.instagram.com/reel/DVPM5wUkaGH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   }
 ];

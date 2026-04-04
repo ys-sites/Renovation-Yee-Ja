@@ -69,7 +69,7 @@ export default function About() {
               className="rounded-2xl overflow-hidden shadow-xl"
             >
               <img 
-                src="https://placehold.co/800x600/2D6A4F/FFFFFF?text=The+Yee+Ja+Team" 
+                src="/media/2.jpeg" 
                 alt="Renovation Yee Ja Team" 
                 className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
               />

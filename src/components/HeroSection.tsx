@@ -12,7 +12,7 @@ export default function HeroSection() {
           animate={{ scale: 1 }}
           transition={{ duration: 10, ease: "easeOut" }}
           style={{
-            backgroundImage: `url('https://placehold.co/1920x1080/2D6A4F/FFFFFF?text=Beautiful+Home+Renovation')`,
+            backgroundImage: `url('/media/hero.jpeg')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
