@@ -61,11 +61,11 @@ export default function Navbar() {
 
         <div className="flex items-center gap-2">
           <a
-            href="tel:+15145590268"
+            href="tel:+14389905160"
             className="hidden sm:flex bg-[#2D6A4F] text-white px-6 py-2.5 rounded-full font-bold hover:bg-[#1B4332] transition-all text-sm items-center gap-2 shadow-lg shadow-green-900/20"
           >
             <Phone className="w-4 h-4" />
-            (514) 559-0268
+            (438) 990-5160
           </a>
 
           {/* Mobile menu button */}
@@ -104,7 +104,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="tel:+15145590268"
+                href="tel:+14389905160"
                 className="w-full flex items-center justify-center px-4 py-3 mt-4 rounded-xl text-white bg-[#2D6A4F] font-medium"
               >
                 <Phone className="w-4 h-4 mr-2" />

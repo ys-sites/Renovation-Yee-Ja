@@ -666,7 +666,7 @@ function AppContent() {
                     <input 
                       type="tel" 
                       className="w-full px-3 md:px-4 py-3 rounded-xl border border-neutral-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all bg-white text-sm md:text-base" 
-                      placeholder="(514) 559-0268" 
+                      placeholder="(438) 990-5160" 
                       required 
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
@@ -788,7 +788,7 @@ function AppContent() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone size={18} className="text-primary shrink-0" />
-                  <span>+1 (514) 559-0268</span>
+                  <span>+1 (438) 990-5160</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Clock size={18} className="text-primary shrink-0 mt-0.5" />
@@ -809,7 +809,7 @@ function AppContent() {
 
       {/* Floating Call Button */}
       <motion.a
-        href="tel:5145590268"
+        href="tel:4389905160"
         initial={{ opacity: 0, scale: 0.5, y: 20 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
@@ -819,7 +819,7 @@ function AppContent() {
       >
         <Phone size={24} className="group-hover:animate-bounce" />
         <span className="absolute right-full mr-4 bg-white text-neutral-900 px-4 py-2 rounded-xl text-sm font-bold shadow-xl opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-neutral-100">
-          {t.floatingCall} +1 (514) 559-0268
+          {t.floatingCall} +1 (438) 990-5160
         </span>
       </motion.a>
     </main>
