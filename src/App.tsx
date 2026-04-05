@@ -506,7 +506,7 @@ function AppContent() {
           <div className="relative h-[400px] md:h-auto w-full">
             {/* Mobile Image: Colors when in view */}
             <motion.img 
-              src="/media/ka.png" 
+                src="/media/about.jpeg" 
               alt="Professional Painter" 
               initial={{ filter: "grayscale(100%) brightness(105%) contrast(105%)" }}
               whileInView={{ filter: "grayscale(0%) brightness(100%) contrast(100%)" }}
@@ -515,7 +515,7 @@ function AppContent() {
             />
             {/* Desktop Image: Colors on hover */}
             <img 
-              src="/media/ka.png" 
+                src="/media/about.jpeg" 
               alt="Professional Painter" 
               className="hidden md:block w-full h-full object-cover grayscale brightness-105 contrast-105 hover:grayscale-0 transition-all duration-700"
             />
