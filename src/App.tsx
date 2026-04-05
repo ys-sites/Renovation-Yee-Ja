@@ -350,7 +350,7 @@ function AppContent() {
             animate={{ scale: 1 }}
             transition={{ duration: 10, ease: "easeOut" }}
             style={{
-              backgroundImage: `url('/media/hero.jpg')`,
+              backgroundImage: `url('/media/hero.jpeg')`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
@@ -607,12 +607,12 @@ function AppContent() {
         <div className="absolute inset-0 z-0 pointer-events-auto">
           <div className="grid grid-cols-6 grid-rows-6 h-full">
             {[
-              "/media/img1.jpeg", "/media/img2.jpeg", "/media/img3.jpeg", "/media/img4.jpeg", "/media/img5.jpeg", "/media/img6.jpeg",
-              "/media/img7.jpeg", "/media/img8.jpeg", "/media/img9.jpeg", "/media/img10.jpeg", "/media/img11.jpeg", "/media/img1.jpeg",
-              "/media/img2.jpeg", "/media/img3.jpeg", "/media/img4.jpeg", "/media/img5.jpeg", "/media/img6.jpeg", "/media/img7.jpeg",
-              "/media/img8.jpeg", "/media/img9.jpeg", "/media/img10.jpeg", "/media/img11.jpeg", "/media/img1.jpeg", "/media/img2.jpeg",
-              "/media/img3.jpeg", "/media/img4.jpeg", "/media/img5.jpeg", "/media/img6.jpeg", "/media/img7.jpeg", "/media/img8.jpeg",
-              "/media/img9.jpeg", "/media/img10.jpeg", "/media/img11.jpeg", "/media/img1.jpeg", "/media/img2.jpeg", "/media/img3.jpeg"
+              "/media/1.jpeg", "/media/2.jpeg", "/media/3.jpeg", "/media/4.jpeg", "/media/1.jpeg", "/media/2.jpeg",
+              "/media/3.jpeg", "/media/4.jpeg", "/media/1.jpeg", "/media/2.jpeg", "/media/3.jpeg", "/media/4.jpeg",
+              "/media/1.jpeg", "/media/2.jpeg", "/media/3.jpeg", "/media/4.jpeg", "/media/1.jpeg", "/media/2.jpeg",
+              "/media/3.jpeg", "/media/4.jpeg", "/media/1.jpeg", "/media/2.jpeg", "/media/3.jpeg", "/media/4.jpeg",
+              "/media/1.jpeg", "/media/2.jpeg", "/media/3.jpeg", "/media/4.jpeg", "/media/1.jpeg", "/media/2.jpeg",
+              "/media/3.jpeg", "/media/4.jpeg", "/media/1.jpeg", "/media/2.jpeg", "/media/3.jpeg", "/media/4.jpeg"
             ].map((img, i) => (
               <div key={i} className="relative group/item">
                 <img src={img} alt="" className="w-full h-full object-cover opacity-5 group-hover/main:blur-sm group-hover/main:opacity-10 transition-all duration-500" />
