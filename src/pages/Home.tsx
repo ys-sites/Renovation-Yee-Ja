@@ -100,11 +100,11 @@ export default function Home() {
           </h2>
           <div className="mt-8 flex flex-col sm:flex-row justify-center lg:mt-0 lg:flex-shrink-0 gap-4">
             <a
-              href="tel:+14389905160"
+              href="tel:+15145590268"
               className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-[#1B4332] bg-white hover:bg-gray-50 transition-all shadow-lg hover:-translate-y-1"
             >
               <Phone className="w-5 h-5 mr-2" />
-              Call (438) 990-5160
+              Call (514) 559-0268
             </a>
             <Link
               to="/contact"

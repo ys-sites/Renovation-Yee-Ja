@@ -29,7 +29,7 @@ export default function Contact() {
 
             <div className="space-y-6">
               {[
-                { icon: Phone, title: "Phone", content: <a href="tel:+14389905160" className="hover:text-[#2D6A4F] transition-colors">+1 (438) 990-5160</a> },
+                { icon: Phone, title: "Phone", content: <a href="tel:+15145590268" className="hover:text-[#2D6A4F] transition-colors">+1 (514) 559-0268</a> },
                 { icon: Mail, title: "Email", content: <a href="mailto:boyboy5212000@hotmail.com" className="hover:text-[#2D6A4F] transition-colors">boyboy5212000@hotmail.com</a> },
                 { icon: MapPin, title: "Office Address", content: <>18173 Rousson Rue<br />Pierrefonds, Montréal<br />QC, H9K 1J7</> },
                 { icon: Clock, title: "Business Hours", content: <>Monday - Friday: 8:00 AM - 6:00 PM<br />Saturday: 9:00 AM - 4:00 PM<br />Sunday: Closed</> }
